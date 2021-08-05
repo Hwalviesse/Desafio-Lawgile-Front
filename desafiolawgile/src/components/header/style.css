@@ -1,0 +1,32 @@
+.menu{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu h2 {
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.active{
+    color: black;
+}
+.navbar{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 15px;
+
+}
+.navbar:hover{
+    color: rgb(136, 136, 136);
+}
+@media(max-width: 990px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}

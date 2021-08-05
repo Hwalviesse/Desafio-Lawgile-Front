@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  
+    
+   
+    background: #fff ;
+    overflow-y:hidden;
+}
+@media (max-width: 990px){
+    body{
+        overflow: auto;
+    }
+}
